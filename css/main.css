@@ -71,3 +71,65 @@ header h2 {
   cursor: pointer;
   color: rgb(0, 132, 255);
 }
+.details-developer {
+  display: grid;
+  margin: 0 20%;
+  margin-top: 20px;
+  grid-template-columns: 215px 2fr;
+  grid-gap: 20px;
+}
+.skills {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.skills h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+.skills__card {
+  margin-bottom: 10px;
+}
+.skills__card--title {
+  font-size: 1.2rem;
+}
+.skills__card--progress-bar {
+  position: relative;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+.skills__card--progress-bar span {
+  position: absolute;
+  height: 5px;
+  background-color: rgb(0, 183, 255);
+}
+.skill1 span {
+  width: 100%;
+}
+.skill2 span {
+  width: 60%;
+}
+.skill3 span {
+  width: 80%;
+}
+.skill4 span {
+  width: 70%;
+}
+.skill5 span {
+  width: 95%;
+}
+.skill6 span {
+  width: 85%;
+}
+.skill7 span {
+  width: 90%;
+}
+.skill8 span {
+  width: 80%;
+}
+.skill9 span {
+  width: 70%;
+}
+.skill10 span {
+  width: 85%;
+}
