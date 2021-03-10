@@ -8,10 +8,7 @@
 }
 html {
   font-size: 62.5%;
-}
-img {
-  width: 50px;
-  height: 50px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -26,6 +23,7 @@ header {
 }
 header h2 {
   font-size: 1.4rem;
+  font-weight: bold;
 }
 .nav {
   list-style: none;
@@ -35,4 +33,41 @@ header h2 {
   margin: 0 5px;
   font-size: 1.2rem;
   color: rgb(155, 155, 155);
+}
+.presentation {
+  display: flex;
+  height: 200px;
+  margin: 0 20%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+}
+.presentation figure img {
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+}
+.presentation__description {
+  display: inline-block;
+  padding-left: 20px;
+}
+.presentation__description h2 {
+  font-size: 2.6rem;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.presentation__description h3 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+.presentation__description p {
+  padding: 10px 20px 10px 0;
+  font-size: 1rem;
+}
+.presentation__description a {
+  margin-top: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(0, 132, 255);
 }
