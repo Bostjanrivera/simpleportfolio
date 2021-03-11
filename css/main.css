@@ -1,5 +1,6 @@
 :root {
-  --darkgray: rgb(54, 54, 54);
+  --gray: rgb(54, 54, 54);
+  --darkgray: rgb(40, 40, 40)
 }
 * {
   margin: 0;
@@ -131,6 +132,7 @@ header h2 {
 .experience {
   width: 100%;
   padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 .experience__list {
   list-style: none;
@@ -160,4 +162,59 @@ header h2 {
   cursor: pointer;
   color: black;
   text-decoration: none;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  background-color: var(--darkgray);
+}
+.portfolio > h2 {
+  padding: 10px 0;
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+.portfolio__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+.portfolio__card {
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  background-color: white;
+
+}
+.portfolio__card img {
+  width: 100%;
+}
+.portfolio__card-description {
+  padding: 10px;
+}
+.portfolio__card-description h2 {
+  padding-bottom: 5px;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.portfolio__card-description p {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.portfolio__card-description a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(0, 183, 255);
+}
+.portfolio--more-projects {
+  margin: 15px auto 10px auto;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
 }
