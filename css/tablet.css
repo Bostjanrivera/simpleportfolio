@@ -1,0 +1,49 @@
+header {
+  padding: 0 20%;
+}
+.presentation {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  flex-wrap: nowrap;
+}
+
+.presentation figure img {
+  width: 200px;
+  padding: 10px;
+}
+
+.details-developer {
+  display: grid;
+  width: 80%;
+  margin: 5px auto;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+.experience {
+  border: 1px solid rgba(0, 0, 0, 0.15)
+}
+.portfolio {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.portfolio__container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.portfolio__card {
+  width: auto;
+  height: auto;
+  padding-bottom: 20px;
+  border: 1px solid white;
+}
+.portfolio__card-description h2 {
+  padding-bottom: 5px;
+  font-weight: lighter;
+}
+.portfolio__card-description p {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
