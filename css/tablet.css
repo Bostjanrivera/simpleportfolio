@@ -47,3 +47,6 @@ header {
   font-size: 1rem;
   padding-bottom: 10px;
 }
+.footer {
+  height: 100px;
+}
