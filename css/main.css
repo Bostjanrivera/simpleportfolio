@@ -33,8 +33,11 @@ header h2 {
 .nav li {
   display: inline-block;
   margin: 0 10px;
+}
+.nav li a {
   font-size: 1.4rem;
   color: rgb(155, 155, 155);
+  text-decoration: none;
 }
 .presentation {
   display: flex;
@@ -62,7 +65,8 @@ header h2 {
 }
 .presentation__description p {
   padding: 10px 20px 10px 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 .presentation__description a {
   text-decoration: none;
@@ -81,6 +85,12 @@ header h2 {
   font-size: 2.5rem;
   text-align: center;
   font-weight: lighter;
+}
+.skills__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .skills__card {
   margin-bottom: 10px;
@@ -103,32 +113,18 @@ header h2 {
   width: 100%;
 }
 .skill2 span {
-  width: 60%;
+  width: 100%;
 }
 .skill3 span {
-  width: 80%;
+  width: 70%;
 }
 .skill4 span {
-  width: 70%;
+  width: 40%;
 }
 .skill5 span {
-  width: 95%;
+  width: 100%;
 }
-.skill6 span {
-  width: 85%;
-}
-.skill7 span {
-  width: 90%;
-}
-.skill8 span {
-  width: 80%;
-}
-.skill9 span {
-  width: 70%;
-}
-.skill10 span {
-  width: 85%;
-}
+
 .experience {
   width: 100%;
   padding: 10px;
