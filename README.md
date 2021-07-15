@@ -1,2 +1,2 @@
 # simpleportfolio
-a ui template for your CV
+A UI template for your CV
